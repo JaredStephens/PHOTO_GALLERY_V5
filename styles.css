@@ -9,10 +9,10 @@ img {
 }
 #grid-container {
 	display: grid;
-	justify-items: center;
-	align-items: center;
-	width: 80%;
+	margin: auto;
+	align-content: center;
+	width: 65%;
 	height: auto;
 	gap: 2em;
-	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-columns: repeat(4, 1fr);
 }
