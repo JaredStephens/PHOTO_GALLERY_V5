@@ -3,6 +3,17 @@
 	padding: 0%;
 	box-sizing: border-box;
 }
+#search-container {
+	text-align: center;
+	margin: 2em;
+}
+.search {
+	width: 35%;
+	height: 60px;
+	padding-left: 1em;
+	font-size: larger;
+	outline: none;
+}
 img {
 	width: 100%;
 	height: auto;
