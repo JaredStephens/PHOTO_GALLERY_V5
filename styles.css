@@ -10,10 +10,9 @@ img {
 #grid-container {
 	display: grid;
 	justify-items: center;
-	align-self: center;
+	align-items: center;
 	width: 80%;
 	height: auto;
 	gap: 2em;
 	grid-template-columns: 25% 25% 25% 25%;
-	grid-template-rows: repeat(auto-fit);
 }
